@@ -12,6 +12,7 @@ class UsersController < ApplicationController
   def show
      @first_day = Date.current.beginning_of_month
      @last_day = @first_day.end_of_month
+     @worked_sum = @attendances.where.not(started_at: nil).count
   end
 
   def new
