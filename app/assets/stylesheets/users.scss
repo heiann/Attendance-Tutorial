@@ -3,8 +3,18 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .user-table {
   vertical-align: middle;
-  text-align: senter;
+  text-align: center;
 }
+
+/* ユーザー情報下ボタン */
+
+.btn-users-show {
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+/* ユーザー勤怠情報テーブル */
+
 #table-attendances {
   th {
     vertical-align: middle;
@@ -16,12 +26,16 @@
   }
 }
 
+/* 入力フォーム */
+
 .label-signup {
   margin-top: 5px;
 }
+
 .btn-signup {
   margin-top: 10px;
 }
+
 .label-user--edit {
   margin-top: 5px;
 }
@@ -29,11 +43,17 @@
 .btn-user--edit {
   margin-top: 10px;
 }
+
+/* ユーザー一覧ページ */
+
 #table-users {
   td {
     vertical-align: middle;
   }  
 }
+
+/* 基本情報編集モーダルウインドウ */
+
 .label-basic-info {
   margin-top: 5px;
 }
